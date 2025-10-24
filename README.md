@@ -8,6 +8,7 @@ Dikembangkan menggunakan Java Android Native
 MainActivity
 - Berisi 1 tombol untuk menyalakan floating service overlay.
 - Berisi 1 TextView untuk menerima data dari service melalui callback interface (bukan Intent).
+
 FloatingViewService
 - Menampilkan layout kecil dengan 4 tombol:
 - Tombol A → Mengirimkan string "Kirim string dari service" ke Activity melalui callback interface.
