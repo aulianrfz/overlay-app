@@ -18,10 +18,7 @@ FloatingViewService
 
 ---
 ## ⚙️ Arsitektur
-Aplikasi ini menggunakan MVP Pattern:
-View (MainActivity) ↔ Presenter (MainPresenter) ↔ Model (MessageModel)
-                               ↕
-                        FloatingViewService
+Aplikasi ini menggunakan pola **MVP (Model–View–Presenter)** dengan alur sebagai berikut:
 - View: Menangani tampilan dan input pengguna.
 - Presenter: Mengatur alur logika dan komunikasi antara View ↔ Model ↔ Service.
 - Model: Menyimpan data (misalnya pesan yang diterima dari service).
@@ -29,6 +26,12 @@ View (MainActivity) ↔ Presenter (MainPresenter) ↔ Model (MessageModel)
 
 ---
 ## 🚀 Gambaran Aplikasi
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cd46fb5e-aded-41e8-b75c-d8573a304eb6" alt="Screenshot 1" width="250" />
+  <img src="https://github.com/user-attachments/assets/e4266abb-547b-48c6-8236-f24345c2f8a7" alt="Screenshot 2" width="250" />
+  <img src="https://github.com/user-attachments/assets/7c4310aa-3692-429c-9923-6762906af4bb" alt="Screenshot 3" width="250" />
+</p>
+
 
 
 
